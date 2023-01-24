@@ -403,7 +403,7 @@ justify="center">
      </Grid>
      </Grid>
   ):(
-              <Grid container spacing={2} sx={{m:2}}>
+              <Grid container spacing={2} sx={{m:2}} style={{margin:"auto", width:"auto",marginBottom:"20px"}}>
               {product.map((products,index) => (
       <Grid item xs={6} md={3} key={products["_id"]}>
      <ProductCard product={products} handleAddToCart={()=>{
